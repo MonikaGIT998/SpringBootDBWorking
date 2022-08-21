@@ -1,3 +1,5 @@
+drop table if exists student;
+
 create table student(
 	 id int not null,
  	name varchar(255),
@@ -8,3 +10,4 @@ create table student(
  insert into student(id, name) values('101', 'Pashmina');
  insert into student(id, name) values('102', 'Veere');
  insert into student(id, name) values('103', 'Jaggu');
+  insert into student(id, name) values('104', 'Meera');

@@ -3,11 +3,13 @@ package com.SpBoot.SprProject.Entity;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.Table;
 
 import org.springframework.stereotype.Component;
 
 @Component
 	@Entity
+	@Table(name="student")
 	public class StudentEntity {
 
 		
